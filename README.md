@@ -12,6 +12,10 @@ Instalação após o Python
 pip install django
  # E o não menos importante, o rest Framework
 pip install djangorestframework
+ # Procure por atualizações no banco de dados
+py manage.py makemigrations
+ # Atualize o banco de dados
+py manage.py migrate
 ```
 
 Após a confirmação de todos os requesitos, rode o seguinte comando
